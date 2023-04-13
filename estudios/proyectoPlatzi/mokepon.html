@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mokepon</title>
+</head>
+<body>
+	<h1>MOKEPON!</h1>
+
+	<section class="eleccion-mascotas">
+		<h2>Elige a tu mascota:</h2>
+	
+		<label for="hipodoge"><b>Hipodoge</b></label>
+		<input type="radio" name="mascotas" id="hipodoge">
+
+		<label for="capipepo"><b>Capipepo</b></label>
+		<input type="radio" name="mascotas" id="capipepo">
+
+		<label for="ratigueya"><b>Ratigueya</b></label>		
+		<input type="radio" name="mascotas" id="ratigueya">
+
+		<button id="boton-mascotas">Seleccionar</button>
+	</section>
+
+
+
+	<section class="eleccion-ataque">
+		<h2>Elige tu ataque:</h2>
+
+		<p>Tu mascota tiene <span>3</span> vidas</p>
+		<p>La mascota del enemigo tiene <span>3</span> vidas</p>
+
+		<p>
+			<button id="boton-fuego">Fuego!</button>
+			<button id="boton-agua">Agua!</button>
+			<button id="boton-tierra">Tierra!</button>
+		</p>
+
+	</section>
+
+	<section class="mensajes">
+		<p>Tu mascota ataco con FUEGO, la mascota del enemigo ataco con TIERRA - Ganaste:)</p>
+	</section>
+
+	<section class="reiniciar">
+		<p>
+			<button id="boton-reiniciar">Reiniciar</button>
+		</p>
+	</section>
+	
+<script type="text/javascript" src="mokepon.js"></script>
+</body>
+</html>
